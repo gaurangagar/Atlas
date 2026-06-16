@@ -1,0 +1,5 @@
+langchain
+beautifulsoup4
+tavily
+python-dotenv
+rich
