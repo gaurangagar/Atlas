@@ -4,3 +4,4 @@ tavily
 python-dotenv
 rich
 langchain-groq
+langchain-google-genai

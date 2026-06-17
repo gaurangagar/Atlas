@@ -1,11 +1,7 @@
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-from utils.llm import get_llm
-
-
-def get_critic_chain():
-    llm = get_llm()
+def get_critic_chain(llm):
 
     writer_prompt = ChatPromptTemplate.from_messages([
         (
